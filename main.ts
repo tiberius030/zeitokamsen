@@ -28,7 +28,9 @@ _1 = 0
 _2 = 0
 _3 = 0
 _4 = 0
+basic.showIcon(IconNames.Yes)
 basic.pause(3000)
+basic.clearScreen()
 basic.forever(function () {
     _1 += 1
     if (_1 == 1000) {
